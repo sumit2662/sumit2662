@@ -97,3 +97,14 @@ Cybersecurity student at **Abasaheb Garware College, Pune**, and a member of **C
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=90&section=footer" />
 </p>
+
+
+### 🎮 Security Arcade
+
+<p align="center">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/sumit2662/sumit2662/output/pacman-contribution-graph.svg" />
+</p>
+
+<p align="center">
+  <img alt="galaga contribution graph" src="https://raw.githubusercontent.com/sumit2662/sumit2662/output/galaga-contribution-graph.svg" />
+</p>
