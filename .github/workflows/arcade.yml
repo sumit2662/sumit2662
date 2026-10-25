@@ -1,0 +1,21 @@
+name: Generate Arcade Graphs
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution graph SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          games: 'pacman,galaga'
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
